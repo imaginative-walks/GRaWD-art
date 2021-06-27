@@ -33,16 +33,10 @@ python -m torch.distributed.launch --nproc_per_node=4 --master_port=12895 train.
 
 ## Samples
 
-![Sample with truncation](doc/sample.png)
+![](assets/sample/sample0.png )
+![](assets/sample/sample12.png )
+![](assets/sample/sample24.png )
 
-Sample from FFHQ. At 110,000 iterations. (trained on 3.52M images)
-
-![MetFaces sample with non-leaking augmentations](doc/sample-metfaces.png)
-
-Sample from MetFaces with Non-leaking augmentations. At 150,000 iterations. (trained on 4.8M images)
-
-
-### Generated samples
 
 
 
